@@ -1,1 +1,1 @@
-# odin-landing-page
+For this assignment, we were tasked with building a complete landing page from scratch utilizing everything we have learned thus far for HTML, CSS, and flex boxes. 
