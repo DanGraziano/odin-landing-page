@@ -71,9 +71,44 @@ a {
     max-width: 90px;  
     border-color: #3882F6;
 }
-
+                                    /* THIS NEEDS FIXING */
 .hero-img {
     align-self: flex-end;
+}
 
+.hed {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 36px;
+    font-size: 25px;
+}
 
+.img {
+    display: flex;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #cecccc;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.attr {
+    display: flex;
+    font-weight: bold;
+    justify-content: right;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 30px;
 }
