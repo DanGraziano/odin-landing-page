@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 40px;
+    align-items: center;
 }
 
 .header, .hero {
@@ -11,13 +18,9 @@ body {
 }
 
 .header {
-    display: flex;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    justify-content: space-between;
-    padding: 0 50px;
-
 }
 
 ul {
@@ -25,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     font-weight: 100;
 }
 
@@ -33,6 +36,10 @@ a {
     text-decoration: none;
     font-size: 15px;
     color: rgb(206, 203, 203);
+}
+
+.header a:hover {
+    color: white;
 }
 
 .hero {
@@ -73,7 +80,7 @@ a {
 }
                                     /* THIS NEEDS FIXING */
 .hero-img {
-    align-self: flex-end;
+
 }
 
 .hed {
@@ -102,6 +109,7 @@ a {
     color: #1F2937;
     font-style: italic;
     font-size: 36px;
+    justify-content: center;
 }
 
 .attr {
