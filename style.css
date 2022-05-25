@@ -115,34 +115,30 @@ body {
 }
 
 .quote {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     background-color: #cecccc;
     color: #1F2937;
 }
 
-.quote .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.quote p {
-    font-style: italic;
+.quote-text {
+    width: 700px;
     font-size: 25px;
-    max-width: 600px;
-
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 80px;
 }
 
-.quote .attr {
-    display: flex;
+.quote-sig {
+    margin-bottom: 80px;
+    align-self: center;
     font-weight: bold;
     font-size: 20px;
-    justify-content: center;
-    align-self: center;
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-} 
+    margin-left: 450px;
+    width: 700px;
+}
 
 .action {
     display:flex;
