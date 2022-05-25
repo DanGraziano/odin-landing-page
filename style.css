@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+* {
+    box-sizing: content-box
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .nav .container {
     display: flex;
-    justify-content: space-between;
     padding: 0 50px;
     height: 40px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav, .header, .footer {
@@ -30,6 +34,7 @@ body {
     display: flex;
     gap: 30px;
     font-weight: 100;
+    margin-right: 50px;
 }
 
 .nav a {
@@ -49,11 +54,11 @@ body {
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header h1, p {
-    max-width: 350px;
+    max-width: 450px;
     flex-wrap: wrap;
 }
 
@@ -110,6 +115,7 @@ margin-right: 50px;
     max-width: 150px;
     flex-wrap: wrap;
     padding: 20px;
+
 }
 
 .quote {
@@ -140,3 +146,38 @@ margin-right: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
 } 
+
+.action .container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin: 70px;
+}
+
+.action h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.action p {
+    color: rgb(206, 203, 203);
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: white;
+    margin: 65px;
+    padding: 5px;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+}
