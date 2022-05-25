@@ -87,9 +87,7 @@ max-width: 300px;
 margin-right: 50px;
 }
 
-
-/*
-.body .hed {
+.body h1 {
     color: black;
     font-weight: bolder;
     text-align: center;
@@ -97,15 +95,24 @@ margin-right: 50px;
     font-size: 25px;
 }
 
-.body .img {
+.body img {
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+.body .container {
     display: flex;
-    
+    justify-content: center;
 }
 
 .body .text {
     display: flex;
-    flex-direction: column;
+    max-width: 150px;
+    flex-wrap: wrap;
+    padding: 20px;
 }
+
+/*
 
 .quote {
     display: flex;
