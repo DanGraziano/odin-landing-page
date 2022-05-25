@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-* {
-    box-sizing: content-box
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -88,8 +84,8 @@ body {
 }
 
 .header img {
-max-width: 300px;
-margin-right: 50px;
+    max-width: 300px;
+    margin-right: 50px;
 }
 
 .body h1 {
@@ -127,6 +123,7 @@ margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .quote p {
@@ -147,33 +144,46 @@ margin-right: 50px;
     margin-bottom: 50px;
 } 
 
-.action .container {
-    display: flex;
-    justify-content: space-between;
+.action {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.action .action-container {
+    display:flex;
+    margin: 80px;
+    width: 800px;
+    height: 125px;
     border-radius: 10px;
-    background-color: #3882F6;
-    margin: 70px;
+    background-color:#3882f6;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.action h1 {
-    color: white;
-    font-size: 20px;
-}
-
-.action p {
-    color: rgb(206, 203, 203);
-    font-size: 15px;
-    margin-left: 50px;
-}
-
-.action button {
-    background-color: #3882F6;
+.action .action-button {
+    background-color:#3882f6;
     color: #F9FAF8;
-    border-radius: 5px;
+    width: 115px;
+    height: 30px; 
+    border-radius: 8px;
+    border: 2px solid white;
     font-weight: bold;
-    border-color: white;
-    margin: 65px;
-    padding: 5px;
+    font-size: 12px;
+    align-self: center;
+}
+
+.action .action-hed {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: .3;
+    color: white;
+}
+
+.action .action-subhed {
+    font-size: 15px;
+    color: rgb(218, 216, 216);
+    line-height: 0;
 }
 
 .footer {
