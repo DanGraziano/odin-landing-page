@@ -4,12 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav .container {
+.nav-container {
     display: flex;
     padding: 0 50px;
     height: 40px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center
 }
 
 .nav, .header, .footer {
@@ -17,10 +17,11 @@ body {
     color: white;
 }
 
-.nav .logo {
+.nav-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-right: 500px;
 }
 
 .nav ul {
@@ -43,11 +44,7 @@ body {
     color: white;
 }
 
-.header  {
-    max-height: 600px;
-}
-
-.header .container {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: center;
