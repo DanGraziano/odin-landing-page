@@ -96,8 +96,9 @@ body {
 }
 
 .body img {
-    max-width: 150px;
+
     border-radius: 20px;
+    max-height: 100px;
 }
 
 .body .container {
